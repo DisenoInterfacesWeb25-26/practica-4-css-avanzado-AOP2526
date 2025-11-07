@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios de Supermercados DIW, Alicante">
+    <meta name="keywords" content="servicios, supermercado, DIW, Alicante">
+    <meta name="author" content="Adrián Olmedo Pérez">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="2025, Supermercados DIW">
+    <title>Contacto - Supermercados DIW</title> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.jpg">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets/images/logo.png" alt="Logotipo Tienda Ejemplo"></a>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <h1>Formulario de Contacto</h1>
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="40" required placeholder="Introduce tu nombre" autofocus><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Introduce tu email"><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="18" max="99" required placeholder="Edad entre 18 y 99"><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required placeholder="Ej: 600000000"><br><br>
+
+        <label for="consulta">Consulta:</label><br>
+        <textarea id="consulta" name="consulta" required placeholder="Escribe tu consulta"></textarea><br><br>
+
+        <label class="checkbox">
+            <input type="checkbox" id="politica" name="politica" required> Acepto la política de privacidad y cookies
+        </label>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <section class="datos-contacto">
+        <h3>Datos de Contacto</h3>
+        <p>Teléfono: <a href="tel:+34600000000">+34 600 000 000</a></p>
+        <p>Email: <a href="mailto:info@supermercadosdiw.com">info@supermercadosdiw.com</a></p>
+    </section>
+
+    <footer>
+        <div class="footer-izquierda">
+            <div class="redes">
+                <p>Síguenos en nuestras redes sociales</p>
+                <a href="https://www.whatsapp.com/" class="whatsapp-fijo" target="_blank">
+                    <img src="assets/images/WhatsApp.jpg" alt="Logo de WhatsApp">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="assets/images/instagram.jpg" alt="Logo de Instagram">
+                </a>
+                <a href="https://x.com" target="_blank">
+                    <img src="assets/images/X.png" alt="Logo de X">
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="assets/images/facebook.png" alt="Logo de Facebook">
+                </a>
+            </div>
+        </div>
+        <div class="footer-centro">
+            <div class="ubicacion">
+                <p>¿Dónde nos encontramos?</p>
+                <p>
+                    <img src="assets/images/mapa.png" alt="Ubicación supermercado">
+                    Benalúa, Alicante
+                </p>
+            </div>
+        </div>
+        <div class="footer-derecha">
+            <p>© 2025 Supermercados DIW</p>
+            <a href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal" target="_blank">
+                Política de Privacidad
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

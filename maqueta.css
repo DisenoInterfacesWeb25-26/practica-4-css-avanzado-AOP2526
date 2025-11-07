@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 10px;
+}
+
+/* MÓVIL (HASTA 700PX) */
+@media (max-width: 700px) {
+    body {
+        font-family: 'Times New Roman', serif;
+    }
+    header, .menu, .nav1, .nav2, .cuerpo, .banner, footer {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* TABLET (DESDE 701PX A 1200PX) */
+@media (min-width: 701px) and (max-width: 1200px) {
+    body {
+        font-family: Calibri, sans-serif;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .nav1 {
+        float: left;
+        width: 20%;
+        height: 300px;
+        margin-right: 2%;
+    }
+
+    .nav2 {
+        float: left;
+        width: 78%;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .cuerpo {
+        float: left;
+        width: 78%;
+        height: 200px;
+    }
+
+    .banner, footer {
+        clear: both;
+        width: 100%;
+    }
+}
+
+/* ORDENADOR MÁS DE 1200PX */
+@media (min-width: 1201px) {
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .nav1 {
+        float: left;
+        width: 15%;
+        height: 420px;
+        margin-right: 2%;
+    }
+
+    .nav2 {
+        float: left;
+        width: 83%;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .cuerpo {
+        float: left;
+        width: 58%;
+        height: 300px;
+        margin-right: 2%;
+    }
+
+    .banner {
+        float: right;
+        width: 23%;
+        height: 300px;
+    }
+
+    footer {
+        clear: both;
+        width: 100%;
+    }
+}
+
+header, nav, main, .banner, footer {
+    background: #a0d8f1;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid #000;
+    font-weight: bold;
+}
