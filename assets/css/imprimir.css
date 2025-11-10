@@ -1,0 +1,46 @@
+@page {
+    margin: 2cm;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    color: black;
+    background: white;
+    line-height: 1.5;
+}
+
+header,
+nav,
+aside,
+.whatsapp-fijo,
+footer,
+.redes,
+.ubicacion {
+    display: none;
+}
+
+main,
+section,
+form,
+table,
+.datos-contacto {
+    display: block;
+    margin: 1em 0;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    text-shadow: none;
+    margin: 1em 0 0.5em;
+}
+
+p, td, th {
+    color: black;
+    font-family: 'Times New Roman', serif;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
