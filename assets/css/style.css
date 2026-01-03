@@ -354,9 +354,7 @@ tr:nth-child(even) {
 }
 
 th {
-    background-color: #4682b4; 
-    color: #ffffff !important; 
-    font-weight: bold;
+    background-color:#2B4F6E;
 }
 
 /*Diseño responsive*/
