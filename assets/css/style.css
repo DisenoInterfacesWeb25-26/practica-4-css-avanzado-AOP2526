@@ -353,6 +353,12 @@ tr:nth-child(even) {
     box-shadow: 0 12px 20px rgba(0,0,0,0.2);
 }
 
+th {
+    background-color: #4682b4; 
+    color: #ffffff !important; 
+    font-weight: bold;
+}
+
 /*Diseño responsive*/
 
 /* MÓVIL: hasta 700px */
