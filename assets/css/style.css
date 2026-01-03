@@ -354,7 +354,9 @@ tr:nth-child(even) {
 }
 
 .TablaSer{
-    color: #c1bdbd;
+    opacity: 1; 
+    color: rgb(51, 51, 51); 
+    background-color: rgb(70, 130, 180);
 }
 /*Diseño responsive*/
 
